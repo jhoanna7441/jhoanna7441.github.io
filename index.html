@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Desdobramentos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>
+    Gerador de Desdobramentos
+    <span>Entre Razões e Emoções</span>
+</h1>
+
+    <button id="adicionarJogo">
+        + Adicionar Jogo
+    </button>
+
+    <div id="listaJogos"></div>
+
+    <button id="gerar">
+        Gerar Combinações
+    </button>
+    <div class="filtros">
+        <button id="exportarPDF">
+📄 Exportar PDF
+</button>
+
+
+    <h2>Total de combinações</h2>
+
+    <div id="total">
+        0
+    </div>
+    <div id="resumoFiltros"></div>
+
+    <hr>
+
+    <div id="resultado"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
